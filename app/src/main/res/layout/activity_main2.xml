@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NickName:"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/letra1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="inserta un nombre"
+        android:layout_below="@id/letra1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/nombre"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_below="@id/nombre"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/letra2"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/letra2"
+        android:hint="10 digitos"
+        android:inputType="number"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:id="@+id/telefono"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTRAR"
+        android:layout_below="@id/telefono"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:id="@+id/btnentrar"/>
+
+</RelativeLayout>

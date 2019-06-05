@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "865123399348",
+    "firebase_url": "https://juegounidad5.firebaseio.com",
+    "project_id": "juegounidad5",
+    "storage_bucket": "juegounidad5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865123399348:android:c5a6fc258f12616d",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.michel.tpdm_practica2_u5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865123399348-qvucfgf3rg66i4uncfs5n1u6pj8m8nv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtnuqTnS8vRVZO7Ix9AEXBAx93FYSvjTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865123399348-qvucfgf3rg66i4uncfs5n1u6pj8m8nv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
